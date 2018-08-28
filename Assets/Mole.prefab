@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33284632946736368}
   - component: {fileID: 23654482935573916}
   - component: {fileID: 136971508940607936}
+  - component: {fileID: 114624826236925748}
   m_Layer: 0
   m_Name: Mole
   m_TagString: Untagged
@@ -84,6 +85,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1676020932481242}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114624826236925748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1676020932481242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01edd4e0b9f93744992ddf3348a94646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visibleHeight: 0.2
+  hiddenHeight: -0.3
+  speed: 4
+  disappearDuration: 1.25
 --- !u!136 &136971508940607936
 CapsuleCollider:
   m_ObjectHideFlags: 1
