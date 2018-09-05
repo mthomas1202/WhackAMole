@@ -1,0 +1,215 @@
+fileFormatVersion: 2
+guid: 40a95740e481a5a4caf65aa82f9fcf3d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube_001
+    100006: Cube_002
+    100008: Cube_003
+    100010: Cube_004
+    100012: Cube_005
+    100014: Cube_006
+    100016: Cube_007
+    100018: Cube_008
+    100020: Cube_009
+    100022: Cube_010
+    100024: Cube_011
+    100026: Cube_012
+    100028: Cube_013
+    100030: Cylinder
+    100032: Cylinder_001
+    100034: Plane
+    400000: //RootNode
+    400002: Cube
+    400004: Cube_001
+    400006: Cube_002
+    400008: Cube_003
+    400010: Cube_004
+    400012: Cube_005
+    400014: Cube_006
+    400016: Cube_007
+    400018: Cube_008
+    400020: Cube_009
+    400022: Cube_010
+    400024: Cube_011
+    400026: Cube_012
+    400028: Cube_013
+    400030: Cylinder
+    400032: Cylinder_001
+    400034: Plane
+    2100000: Arcade_Roof_Color
+    2100002: Light_Blue_Light_Color
+    2100004: Light_Purple_Light_Color
+    2100006: Arcade_Base_003_Color
+    2100008: Arcade_Screen_Color
+    2100010: Control_Panel_Color
+    2100012: Metal_Panel_Color
+    2100014: Arcade_Game_Plate_Color
+    2100016: Green_Button_Color
+    2100018: Red_Button_Color
+    2100020: Blue_Button_Color
+    2100022: Yellow_Button_Color
+    2100024: Joystick_Color
+    2100026: Joystick_Base_Color
+    2100028: Arcade_Base_002_Color
+    2100030: Arcade_Base_001_Color
+    2100032: Pinball_Button_Color
+    2100034: Pinball_Leg_Color
+    2100036: Pinball_Base_Color
+    2100038: Pinball_Bottom_Chasis_Color
+    2100040: Pinball_Screen_Color
+    2100042: Pinball_Game_Color
+    2100044: WhackaMole_Screen_Grid_Color
+    2100046: WhackAMole_Machine_Screen_Color
+    2100048: WhackaMole_Machine_Green_Color
+    2100050: Mole_Base_Color
+    2100052: Mole_Eye_BlackColor
+    2100054: Mole_Eye_White_Color
+    2100056: Mole_Snout_Color
+    2100058: Mole_Teeth_Color
+    2100060: Mole_Nose_Color
+    2100062: Mole_Whisker_Color
+    2100064: WhackaMole_Hole_Color
+    2100066: Walls_Color
+    2100068: Floor_Color
+    2100070: Walls_Decal_Color
+    2100072: Door_Color
+    2100074: Windows_Color
+    2300000: Cube
+    2300002: Cube_001
+    2300004: Cube_002
+    2300006: Cube_003
+    2300008: Cube_004
+    2300010: Cube_005
+    2300012: Cube_006
+    2300014: Cube_007
+    2300016: Cube_008
+    2300018: Cube_009
+    2300020: Cube_010
+    2300022: Cube_011
+    2300024: Cube_012
+    2300026: Cube_013
+    2300028: Cylinder
+    2300030: Cylinder_001
+    2300032: Plane
+    3300000: Cube
+    3300002: Cube_001
+    3300004: Cube_002
+    3300006: Cube_003
+    3300008: Cube_004
+    3300010: Cube_005
+    3300012: Cube_006
+    3300014: Cube_007
+    3300016: Cube_008
+    3300018: Cube_009
+    3300020: Cube_010
+    3300022: Cube_011
+    3300024: Cube_012
+    3300026: Cube_013
+    3300028: Cylinder
+    3300030: Cylinder_001
+    3300032: Plane
+    4300000: Cube_013
+    4300002: Cube_012
+    4300004: Cube_011
+    4300006: Cylinder_001
+    4300008: Cube_010
+    4300010: Cube_009
+    4300012: Cube_008
+    4300014: Cube_007
+    4300016: Cube_006
+    4300018: Cube_005
+    4300020: Cube_004
+    4300022: Cube_003
+    4300024: Cube_001
+    4300026: Plane
+    4300028: Cube
+    4300030: Cylinder
+    4300032: Cube_002
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

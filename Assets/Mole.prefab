@@ -19,10 +19,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4398338165362916}
-  - component: {fileID: 33284632946736368}
-  - component: {fileID: 23654482935573916}
   - component: {fileID: 136971508940607936}
   - component: {fileID: 114624826236925748}
+  - component: {fileID: 114774021074043038}
   m_Layer: 0
   m_Name: Mole
   m_TagString: Untagged
@@ -30,6 +29,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1764537662583090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4238235030961298}
+  - component: {fileID: 33975220414713280}
+  - component: {fileID: 23132102844603594}
+  - component: {fileID: 95303820846828348}
+  m_Layer: 0
+  m_Name: mole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4238235030961298
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1764537662583090}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -0.0021463, y: -1.6827, z: -0.085906}
+  m_LocalScale: {x: 0.8548566, y: 0.8548566, z: 1.4817514}
+  m_Children: []
+  m_Father: {fileID: 4398338165362916}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
 --- !u!4 &4398338165362916
 Transform:
   m_ObjectHideFlags: 1
@@ -37,18 +67,19 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1676020932481242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.2, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.3, z: 0.5}
-  m_Children: []
+  m_LocalPosition: {x: -0.039, y: 0.559, z: 0.0012068}
+  m_LocalScale: {x: 0.6183758, y: 0.3567553, z: 0.6183758}
+  m_Children:
+  - {fileID: 4238235030961298}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23654482935573916
+--- !u!23 &23132102844603594
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676020932481242}
+  m_GameObject: {fileID: 1764537662583090}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +89,12 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100006, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
+  - {fileID: 2100008, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
+  - {fileID: 2100010, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
+  - {fileID: 2100012, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
+  - {fileID: 2100016, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
+  - {fileID: 2100014, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,13 +114,31 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33284632946736368
+--- !u!33 &33975220414713280
 MeshFilter:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1676020932481242}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  m_GameObject: {fileID: 1764537662583090}
+  m_Mesh: {fileID: 4300006, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
+--- !u!95 &95303820846828348
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1764537662583090}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: b1277a64b717c4c43a0f368ce69a5f1b, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114624826236925748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -96,10 +150,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01edd4e0b9f93744992ddf3348a94646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visibleHeight: 0.2
-  hiddenHeight: -0.3
+  visibleHeight: 0.559
+  hiddenHeight: -0.15
   speed: 4
   disappearDuration: 1.25
+  hammer: {fileID: 0}
+--- !u!114 &114774021074043038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1676020932481242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114624826236925748}
+          m_MethodName: OnHit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!136 &136971508940607936
 CapsuleCollider:
   m_ObjectHideFlags: 1
